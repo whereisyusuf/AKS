@@ -133,7 +133,6 @@
                 "vnetSubnetID": "[parameters('subnetID')]",
                 "maxPods": "[parameters('maxPods')]",
                 "type": "VirtualMachineScaleSets",
-                "orchestratorVersion": "1.15.10",
                 "nodeLabels": {},
                 "osType": "Linux"
             }
