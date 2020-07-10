@@ -1,0 +1,2 @@
+#AKS cluster creation command
+az aks create -g yraks -n yraks --load-balancer-sku standard --enable-managed-identity --network-plugin azure --vnet-subnet-id /subscriptions/967b4ee2-f688-4848-939e-8f7e81e738fe/resourceGroups/yrapimsample/providers/Microsoft.Network/virtualNetworks/yrapimsample-vnet/subnets/aks --service-cidr 172.16.1.192/27 --docker-bridge-address 172.16.1.225/27 --dns-service-ip 172.16.1.197 
